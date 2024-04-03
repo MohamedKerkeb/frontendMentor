@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-codes {
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 497px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px hsl(220, 15%, 55%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.box_image {
+    /* border: 1px red dashed; */
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.text {
+    /* border: green 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: hsl(220, 15%, 55%);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 10px 5px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
