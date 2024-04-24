@@ -28,6 +28,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-weight: 300;
+    color: var(--Dark_grayish_blue);
 }
 
 main {
@@ -69,24 +70,28 @@ img {
 h1 {
     font-family: var(--Fraunces);
     font-weight: 700;
-    font-size: calc(1vw + 1.8rem);
-    line-height: 2rem;
+    font-size: calc(2rem + 1vw);
+    line-height: 1.1em;
+    color: var(--Very_dark_blue);
 }
 
 p {
-    word-spacing: 0.4rem;
+    word-spacing: 0.3rem;
     line-height: 1.5em;
+    font-size: clamp(16px, 1vw, 20px);
+    font-weight: 400;
 }
 
 .row_price {
     font-family: var(--Fraunces);
     display: flex;
     align-items: center;
+    font-weight: 400;
 }
 
 .price {
     color: var(--Dark_cyan);
-    font-size: 30px;
+    font-size: calc(2rem + 1vw);
     font-weight: 700;
     margin-right: 25px;
 }
@@ -140,11 +145,12 @@ footer {
     }
 
     h1{
-        border: 1px solid red;
-        line-height: 2.5rem;
+        /* border: 1px solid red; */
     }
 
-
+    p{
+        word-spacing: 0rem;
+    }
     /* img {
         border-radius: 20px 0 0 20px;
     } */
